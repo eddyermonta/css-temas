@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 5px solid black;
+}
+
+.center{
+    text-align: center;
+}
+
+.fondos-solido{
+    background-color: brown;
+}
+.fondo-gradiente{
+    background: linear-gradient(to right, red, blue);
+}
+.fondo-imagen{
+    background-image: url(/assets/img/fondo.jpg);
+}
